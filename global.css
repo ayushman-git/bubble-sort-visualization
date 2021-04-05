@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: rgb(23, 128, 136);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(40, 28, 151);
+}
